@@ -8,5 +8,10 @@
 ```
 const [isLogin, setIsLogin] = useState(false);  // ログイン判定を初期値でfalse
 
-LocalStorage
+setIsLogin(true);  // useStateにおけるisLoginがtrue
+
+window.localStorage.setItem("isLogin", true);  // localStorageにおけるisLoginがtrue
 ```
+* 上記のコードを利用する以上、Webページのリロードでは以下2点を考慮する必要がある
+    * ページをリロードした際に、useStateのisLoginは初期値になること
+    * 
