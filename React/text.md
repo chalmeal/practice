@@ -1,5 +1,9 @@
 ### text base
 
+* npm install時のエラー回避
+
+`npm install --save --legacy-peer-deps {パッケージ}`
+
 ## React.createContext
 * propsによるバケツリレー方式のデータ渡しを回避することができる
 
