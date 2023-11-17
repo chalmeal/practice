@@ -2,7 +2,7 @@
 
 ## 2023/11/09
 * Golang ジェネリクス利用
-  * https://zenn.dev/nobishii/articles/type_param_intro
+  * https://zenn.dev/nobishii/articles/type_param_intro* 
 * Git MultiAccount 切り替え
   * 下記のどれか（上から順に理想）
     * vscode上でGUIベースの切り替え
@@ -30,3 +30,4 @@
 * Transaction
   * トランザクション確立
     * readOnly含むIsolationの考慮など
+    * store横断によるトランザクション確立方法
