@@ -12,18 +12,12 @@
 
 ## golang-package
 * Connect
-  * DB接続情報
   * Minioの導入
   * Mailhogの導入
-* util
+* Util
   * uuid
-  * JST-Time
   * sql.NullString
     * Stringだけ取りたい
-* Response
-  * statusの再考慮
-  * API側からのメッセージレスポンス
-    * UI側で依存しないように
 * Validation
   * カスタムバリデーションの利用
     * https://qiita.com/RunEagler/items/ad79fc860c3689797ccc
@@ -31,3 +25,9 @@
   * トランザクション確立
     * readOnly含むIsolationの考慮など
     * store横断によるトランザクション確立方法
+* Service
+  * service層の導入
+    * トランザクションをservice層で立てることで、複数のstore処理横断のトランザクション確立を実現
+  * 監査ログ
+    * serviceが動作した際に監査ログを残す処理を導入
+    * 実行ユーザーID、実行開始日時、実行終了日時、処理状態、メッセージ
