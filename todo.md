@@ -11,13 +11,13 @@
     * shell実行による切り替え
 
 ## golang-package
-* Connect
+### v1.0.0定義
+* Support
   * Minioの導入
   * Mailhogの導入
-* Util
-  * uuid
-  * sql.NullString
-    * Stringだけ取りたい
+* Context
+  * CSV出力、入力の確立方法
+  * 監査ログ処理
 * Validation
   * カスタムバリデーションの利用
     * https://qiita.com/RunEagler/items/ad79fc860c3689797ccc
@@ -30,7 +30,6 @@
     * トランザクションをservice層で立てることで、複数のstore処理横断のトランザクション確立を実現
   * 監査ログ
     * serviceが動作した際に監査ログを残す処理を導入
-    * 実行ユーザーID、実行開始日時、実行終了日時、処理状態、メッセージ
 * Security
   * ログイン処理の実装
     * ログインセッションの考慮（タイムアウト処理）
