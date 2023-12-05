@@ -24,13 +24,11 @@
 * Transaction
   * トランザクション確立
     * readOnly含むIsolationの考慮など
-    * store横断によるトランザクション確立方法
 * Service
-  * service層の導入
-    * トランザクションをservice層で立てることで、複数のstore処理横断のトランザクション確立を実現
   * 監査ログ
     * serviceが動作した際に監査ログを残す処理を導入
 * Security
   * ログイン処理の実装
     * ログインセッションの考慮（タイムアウト処理）
+    * JWTの利用
     * gorilla/csrfの利用
