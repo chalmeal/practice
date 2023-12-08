@@ -27,6 +27,7 @@
 * Service
   * 監査ログ
     * serviceが動作した際に監査ログを残す処理を導入
+  * Handler→Service→Store構成の見直し
 * Security
   * ログイン処理の実装
     * ログインセッションの考慮（タイムアウト処理）
