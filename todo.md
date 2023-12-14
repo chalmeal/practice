@@ -9,27 +9,3 @@
     * ディレクトリごとの.gitconfigによる切り替え → https://qiita.com/shionit/items/fb4a1a30538f8d335b35
     * コマンドによる簡易切り替え（1行程度のコピペレベルが望ましい）
     * shell実行による切り替え
-
-## golang-package
-### v1.0.0定義
-* Support
-  * Minioの導入
-  * Mailhogの導入
-* Context
-  * CSV出力、入力の確立方法
-  * 監査ログ処理
-* Validation
-  * カスタムバリデーションの利用
-    * https://qiita.com/RunEagler/items/ad79fc860c3689797ccc
-* Transaction
-  * トランザクション確立
-    * readOnly含むIsolationの考慮など
-* Service
-  * 監査ログ
-    * serviceが動作した際に監査ログを残す処理を導入
-  * Handler→Service→Store構成の見直し
-* Security
-  * ログイン処理の実装
-    * ログインセッションの考慮（タイムアウト処理）
-    * JWTの利用
-    * gorilla/csrfの利用
