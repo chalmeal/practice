@@ -1,0 +1,14 @@
+### v1.1.0
+
+v1.1.0リリースノート
+
+## todo
+* Context
+  * Pagination処理
+  * CSV出力、入力の確立方法
+  * ファイルアップロード(Minio)
+  * メール送信(Mailhog)
+* Validation
+  * カスタムバリデーションの利用
+    * https://qiita.com/RunEagler/items/ad79fc860c3689797ccc
+    
